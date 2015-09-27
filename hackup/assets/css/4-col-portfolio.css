@@ -1,0 +1,184 @@
+/*!
+ * Start Bootstrap - 4 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+	text-align: center;
+}
+
+.portfolio-item h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-item a
+{
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.portfolio-item a img
+{
+	margin: 0 auto;
+	display: inline-block;
+	min-width: 300px;
+	min-height: 300px;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+.scrollable
+{
+	overflow-y: auto;
+	height: 300px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+#artistBox
+{
+	display: none;
+}
+
+#artistBox #artistAvatar
+{
+	min-width: 350px;
+	min-height: 350px;
+	max-width: 350px;
+	max-height: 350px;
+}
+
+.songItem:hover
+{
+	border: 3px solid lightgray;
+}
+
+.songItem.selected
+{
+	border: 3px solid lightblue;
+}
+
+
+
+#mapContainer
+{
+	width: 100%;
+	height: 700px;
+}
+
+#gigText
+{
+	width: 100%;
+	height: 100%;
+}
+
+        table {
+            width: 100%;
+        }
+
+        thead, tbody, tr, td, th { display: block; }
+
+        tr:after {
+            content: ' ';
+            display: block;
+            visibility: hidden;
+            clear: both;
+        }
+
+        thead th {
+            height: 30px;
+
+            /*text-align: left;*/
+        }
+
+        tbody {
+            height: 120px;
+            overflow-y: auto;
+        }
+
+        thead {
+            /* fallback */
+        }
+
+
+        tbody td, thead th {
+            width: 25%;
+            float: left;
+        }
+
+.profilelogo {
+	text-align: right;
+}
+
+.profilelogo img{
+	display: inline-block;
+}
+
+.header-fixed {
+    width: 100% 
+}
+
+.header-fixed > thead,
+.header-fixed > tbody,
+.header-fixed > thead > tr,
+.header-fixed > tbody > tr,
+.header-fixed > thead > tr > th,
+.header-fixed > tbody > tr > td {
+    display: block;
+}
+
+.header-fixed > tbody > tr:after,
+.header-fixed > thead > tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.header-fixed > tbody {
+    overflow-y: auto;
+    height: 180px;
+}
+
+.header-fixed > tbody > tr > td,
+.header-fixed > thead > tr > th {
+    width: 25%;
+    float: left;
+}
+
+.col-md-4 p
+{
+	margin: 0 auto;
+	display: inline-block;
+	padding-left: 160px;
+	padding-top: 10px;
+	
+}
+
+.form-control-inline {
+    min-width: 0;
+    width: auto;
+    display: inline;
+}
+
+.center-block {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	float: none !important
+	
+}
+
+.col-md-6 center-block p {
+	text-align: center;
+	padding: auto;
+}
